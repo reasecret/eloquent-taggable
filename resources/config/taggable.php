@@ -2,6 +2,11 @@
 
 return [
 
+     /**
+     * If this is true taggable_id column type will be uuid.
+     */
+    'uuid' => true,
+
     /**
      * List of characters that can delimit the tags passed to the
      * tag() / untag() / etc. functions.
