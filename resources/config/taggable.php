@@ -3,7 +3,8 @@
 return [
 
      /**
-     * If this is true taggable_id column type will be uuid.
+     * If your model has uuid keys, you can set taggable_id column type to uuid
+     * by setting this to true.
      */
     'uuid' => true,
 
